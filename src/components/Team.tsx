@@ -1,6 +1,8 @@
 import { ChevronRightIcon } from 'lucide-react'
 import Image from 'next/image'
 
+import nathan from '@/assets/nathan.png'
+import doug from '@/assets/doug.png'
 export function Team() {
 	return (
 		<div className="h-screen w-screen px-40 bg-zinc-50">
@@ -31,7 +33,7 @@ export function Team() {
 					<div className="flex gap-6 items-center">
 						<div className="group w-[240px] overflow-hidden h-[350px] bg-zinc-950/90 backdrop-blur-lg">
 							<Image
-								src={'/nathan.png'}
+								src={nathan}
 								alt=""
 								className="w-[400px] group-hover:w-[300px] group-hover:h-[400px]  hover:opacity-10 transition-all duration-700 h-[450px] object-cover"
 								quality={100}
@@ -41,7 +43,7 @@ export function Team() {
 						</div>
 						<div className="group mt-40 w-[240px] overflow-hidden h-[350px] bg-zinc-900/90 backdrop-blur-lg">
 							<Image
-								src={'/doug.png'}
+								src={doug}
 								alt=""
 								className="w-[400px] group-hover:w-[300px] group-hover:h-[400px]  hover:opacity-10 transition-all duration-700 h-[450px] object-cover"
 								quality={100}

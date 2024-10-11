@@ -5,6 +5,9 @@ import Image from 'next/image'
 import { SvgComment } from './SvgComment'
 import { motion } from 'framer-motion'
 
+import nathan from '@/assets/nathan.png'
+import doug from '@/assets/doug.png'
+
 export function Testimonials() {
 	const [personsSelected, setPersonsSelected] = useState<number | null>(0)
 
@@ -14,9 +17,9 @@ export function Testimonials() {
 			name: 'Nathan Palatin',
 			title: 'CTO & Omi',
 			comment: 'o Marcelo e um rrombado!',
-			src: '/nathan.png'
+			src: nathan
 		},
-		{ id: 2, name: 'Doug Alsant', title: 'CEO & Gay', comment: 'o Marcio e um rrombado!', src: '/doug.png' }
+		{ id: 2, name: 'Doug Alsant', title: 'CEO & Gay', comment: 'o Marcio e um rrombado!', src: doug }
 	]
 
 	const containerVariants = {

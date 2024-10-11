@@ -2,7 +2,9 @@ export function Video() {
 	return (
 		<div className="bg-zinc-950">
 			<video
-				src="/video.mp4"
+				src={
+					'https://82oeukjshsyauuib.public.blob.vercel-storage.com/uploads/video-3ozg1LBmb2HreQoxknkN4sEJCNf6Yp.mp4'
+				}
 				autoPlay
 				muted
 				loop

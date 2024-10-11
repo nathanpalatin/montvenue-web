@@ -20,7 +20,8 @@ export function Providers({ children }: { children: ReactNode }) {
 					style={{
 						position: 'fixed',
 						top: `${position.y}px`,
-						left: `${position.x}px`
+						left: `${position.x}px`,
+						pointerEvents: 'none'
 					}}
 				/>
 				{children}
