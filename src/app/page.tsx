@@ -1,5 +1,6 @@
 import { Business } from '@/components/Business'
 import { Content } from '@/components/Content'
+import { Customers } from '@/components/Costumers'
 import { Header } from '@/components/Header'
 import { Services } from '@/components/Services'
 import { Team } from '@/components/Team'
@@ -15,6 +16,7 @@ export default function Home() {
 				<Services />
 				<Business />
 				<Team />
+				<Customers />
 			</div>
 		</div>
 	)

@@ -14,8 +14,12 @@ export function Content() {
 			viewport={{ amount: 0.4 }}
 		>
 			<div className="flex flex-col h-full justify-center items-start">
-				<h1 className="text-8xl text-white ">Projetamos a real</h1>
-				<h1 className="text-white text-6xl ">Inteligencia financeira</h1>
+				<h1 className="text-8xl text-white font-thin">
+					<span className="font-semibold">Designing</span> a
+				</h1>
+				<h1 className="text-white text-6xl font-thin">
+					<span className="font-semibold">Better</span> World Today
+				</h1>
 				<p className="text-white pt-10 w-[600px]">
 					Welcome to our world of endless imagination and boundless creativity. Together, let's embark on a
 					remarkable journey where dreams become tangible realities.

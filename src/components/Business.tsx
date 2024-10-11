@@ -1,5 +1,4 @@
 import { ChevronRightIcon } from 'lucide-react'
-import Image from 'next/image'
 
 export function Business() {
 	return (
@@ -24,7 +23,9 @@ export function Business() {
 				<div className="group w-1/4 hover:cursor-pointer min-h-40 border">
 					<div className="w-0 h-2 bg-orange-500 group-hover:w-full  transition-all duration-500" />
 					<div className="p-4 space-y-6">
-						<h1 className="text-white text-xl">Branding and Identity Design</h1>
+						<h1 className="text-white text-xl">
+							Branding and <br /> Identity Design
+						</h1>
 						<p className="text-zinc-500 transition-all opacity-0 group-hover:opacity-100 duration-700 mb-0 group-hover:mb-4">
 							Our creative agency is a team of professionals focused on helping your brand grow.
 						</p>
