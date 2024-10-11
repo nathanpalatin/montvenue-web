@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { ChevronRightIcon } from 'lucide-react'
+import { useState } from 'react'
 
 export function Content() {
 	return (
