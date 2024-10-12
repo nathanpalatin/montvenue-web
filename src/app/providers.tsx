@@ -12,6 +12,7 @@ export function Providers({ children }: { children: ReactNode }) {
 			y: event.clientY - 10
 		})
 	}
+
 	return (
 		<ThemeProvider attribute="class" defaultTheme="dark" disableTransitionOnChange>
 			<div onMouseMove={handleMouseMove}>
