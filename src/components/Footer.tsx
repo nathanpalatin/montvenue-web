@@ -9,23 +9,23 @@ import { ChevronRightCircle } from 'lucide-react'
 
 export function Footer() {
 	return (
-		<div className="h-[700px] w-screen px-40 bg-gray-950">
-			<div className="mt-32 grid grid-cols-3">
-				<div>
-					<Image alt="logo footer" width={180} className="object-contain " height={70} src={logoFooter} />
+		<div className="py-20 w-screen px-40 bg-gray-950">
+			<div className="flex items-start gap-20">
+				<div className="w-[430px]">
+					<Image alt="logo footer" width={140} className="object-contain " height={70} src={logoFooter} />
 					<div className="mt-10">
 						<p className="text-zinc-500">Subscribe our newsletter:</p>
-						<div className=" mt-4 flex items-center gap-4">
+						<div className=" bg-zinc-900  px-6 py-2 w-[270px] rounded-full mt-4 flex items-center gap-4">
 							<input
-								className="w-[240px] px-4 py-3 rounded-full text-zinc-200 bg-zinc-700 outline-none"
+								className=" bg-transparent placeholder:text-zinc-700 placeholder:text-sm text-zinc-200 outline-none"
 								type="text"
-								placeholder="Enter your email"
+								placeholder="ENTER OUR EMAIL"
 							/>
-							<button className="p-3 text-white rounded-full bg-zinc-800">
+							<button className="p-3 text-white rounded-full bg-orange-500">
 								<ChevronRightCircle />
 							</button>
 						</div>
-						<div className="flex items-center my-10 gap-4">
+						<div className="mt-32 flex items-center my-10 gap-4">
 							<a href="https://instagram.com/montvenue" target="_blank">
 								<Image src={instagramLogo} width={20} height={20} alt="instagram montvenue" />
 							</a>
@@ -40,19 +40,26 @@ export function Footer() {
 					</div>
 				</div>
 				<div>
-					<h1 className="text-2xl text-zinc-200 font-semibold">About Us</h1>
-					<ul className="list-disc pl-6 text-white">
-						<li>Company Overview</li>
-						<li>Press Releases</li>
-						<li>Press Contact</li>
+					<ul className="list-none pl-6 space-y-3 text-white">
+						<li className="text-3xl font-semibold text-orange-500">Home</li>
+						<li className="text-3xl font-semibold">Portfolio</li>
+						<li className="text-3xl font-semibold">Services</li>
+						<li className="text-3xl font-semibold">Contact</li>
+						<li className="text-3xl font-semibold">Blog</li>
 					</ul>
+					<div className="pl-6 mt-10">
+						<h1 className="text-white font-semibold text-lg">Brazil</h1>
+						<p className="pt-4 text-zinc-600 font-medium text-lg">Icon Residence, Apto 1106</p>
+						<p className=" text-zinc-600 font-medium text-lg">Balneario Camboriu, SC</p>
+						<p className=" text-zinc-600 font-medium text-lg">+55 (47) 99999-9999</p>
+					</div>
 				</div>
 				<div>
-					<h1 className="text-2xl text-zinc-200 font-semibold">montvenue</h1>
-					<ul className="list-disc pl-6 text-white">
-						<li>Our Mission</li>
-						<li>Press</li>
-						<li>Careers</li>
+					<ul className="list-none pl-6 space-y-3 text-white">
+						<li className="text-md text-zinc-600 font-semibold">Privacy Policy</li>
+						<li className="text-md text-zinc-600 font-semibold">Terms and conditions</li>
+						<li className="text-md text-zinc-600 font-semibold">Cookie Policy</li>
+						<li className="text-md text-zinc-600 font-semibold">Careers</li>
 					</ul>
 				</div>
 			</div>

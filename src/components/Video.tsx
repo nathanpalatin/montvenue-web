@@ -1,3 +1,5 @@
+import poster from '@/assets/poster.png'
+
 export function Video() {
 	return (
 		<div className="bg-zinc-950">
@@ -5,6 +7,7 @@ export function Video() {
 				src={
 					'https://82oeukjshsyauuib.public.blob.vercel-storage.com/uploads/video-3ozg1LBmb2HreQoxknkN4sEJCNf6Yp.mp4'
 				}
+				poster={poster.src}
 				autoPlay
 				muted
 				loop

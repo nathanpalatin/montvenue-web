@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion'
 import { ChevronRightIcon } from 'lucide-react'
-import { useState } from 'react'
 
 export function Content() {
 	return (
@@ -22,7 +21,7 @@ export function Content() {
 					<span className="font-semibold">Better</span> World Today
 				</h1>
 				<p className="text-white pt-10 w-[600px]">
-					Welcome to our world of endless imagination and boundless creativity. Together, let's embark on a
+					Welcome to our world of endless imagination and boundless creativity. Together, let`s embark on a
 					remarkable journey where dreams become tangible realities.
 				</p>
 				<div className=" mt-10 gap-10 flex items-center">
